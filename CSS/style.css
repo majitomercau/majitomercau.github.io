@@ -1,0 +1,80 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #b8bbbd;
+    background-color: #0d1117;
+    text-align: center;
+}
+
+
+#foto {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h3#arroba {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+}
+
+
+.socialmedia-icon {
+    width: 12%;
+    height: auto;
+    padding: 0px 3px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+nav {
+    margin: 15px 0px;
+}
+nav ul li {
+    display: inline;
+}
+
+section p {
+    line-height: 25px;
+}
+
+#botones {
+    margin: 25px;
+}
+
+.boton {
+    width: 150px;
+    font-weight: 700;
+    line-height: 36px;
+    background-color: #e91e63;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #b8bbbd;
+    border-radius: 5px;
+    filter:drop-shadow(-3px 3px #b8bbbd);
+}
+
+
+.boton:hover{
+    width: 150px;
+    line-height: 36px;
+    background-color: #0d1117;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #e91e63;
+    border-radius: 5px;
+    filter:drop-shadow(-3px 3px #e91e63);
+}
+
+
+footer {
+    margin-top: 50px;
+}
