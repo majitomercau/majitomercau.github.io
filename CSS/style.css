@@ -23,7 +23,7 @@ h3#arroba {
 
 
 .socialmedia-icon {
-    width: 9%;
+    width: 10%;
     height: auto;
     padding: 0px 3px;
 }
@@ -78,4 +78,9 @@ section p {
 
 footer {
     margin-top: 50px;
+}
+
+footer p {
+    display: inline-block;
+    margin: unset;
 }
