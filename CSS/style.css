@@ -85,10 +85,17 @@ section p {
 
 footer {
     margin-top: 50px;
+    font-size: small;
 }
 
-footer p {
-    display: inline-block;
+
+.hide{
+    color: #0d1117;
     margin: unset;
-    font-size: small;
+}
+
+.hide a{
+    text-decoration:none;
+    color: #0d1117;
+    margin: unset;
 }
