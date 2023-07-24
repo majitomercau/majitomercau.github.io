@@ -83,4 +83,5 @@ footer {
 footer p {
     display: inline-block;
     margin: unset;
+    font-size: x-small;
 }
