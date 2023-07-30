@@ -1,0 +1,188 @@
+body{
+    color: white;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background: #202124;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#TopBar{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+
+div.menu2{
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    border-radius: 50%;
+    padding: 4px;
+    height: 32px;
+}
+
+.appsIcono{
+    height: 21px;
+    padding: 7px;
+}
+
+nav img:hover{
+    background: #383838;
+}
+
+nav div.menu1{
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#GoogleLogo{
+    max-height: 92px;
+    margin-top: 34px;
+}
+
+section{
+    padding: 20px;
+    max-height: 160px;
+    max-width: 582px;
+}
+
+div.buscador{
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    width: 582px;
+    height: 45px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.buscador:hover{
+    background: #303134;
+    border: 1px solid #303134;
+
+}
+
+input{
+    font-family: arial,sans-serif;
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    outline: none;
+    color: aliceblue;
+}
+
+.icono-camara{
+    height: 24px;
+    padding: 0 16px 0 8px;
+}
+
+.icono-mic{
+    height: 20px;
+    padding: 0 12px;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+ul.shortcuts {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+ul.shortcuts li{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    margin: 11px 6px;
+    padding: 0 15px;
+    line-height: 36px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+ul.shortcuts li:hover{
+    border: 1px solid #999D9E;
+}
+
+ul.shortcuts li a:hover{
+    text-decoration: none;
+}
+
+
+#BottomFixed{
+    position: fixed; 
+    bottom: 0;
+    left: 0%;
+    background: #171717;
+    color: #999D9E;
+}
+
+p{
+    padding-left: 30px;
+}
+
+.row{
+    width: 100vw;
+    padding: 0%;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+}
+
+footer .row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+footer .row2 ul{
+    padding: 0 21px;
+}
+
+footer .row2 li{
+    padding: 0 13px;
+}
+
+footer .row2 li a{
+    color: #999D9E;
+}
