@@ -1,6 +1,8 @@
 // Crear list que guarde todas mis tareas.
 let tasks = document.querySelectorAll('.list-group-item');
-let nombre = document.getElementById('nombre')
+let user = document.getElementById('nombre')
+
+
 
 // Crear Loop para asignar event listener a cada tarea
 tasks.forEach(task => {
@@ -8,7 +10,8 @@ tasks.forEach(task => {
     label.addEventListener('click', () => {
         task.classList.toggle('completed')
         let tarea_completada = task.querySelector('span').innerHTML
-        alert('¡Bien ahí! Terminaste la tarea: '+ tarea_completada + '.');
+        let nombre = user.value;
+        alert('¡Bien ahí, ' + nombre +'! Terminaste la tarea: '+ tarea_completada + '.');
     });
 });
 
