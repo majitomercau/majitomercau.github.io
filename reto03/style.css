@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(192,240,108,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 680px;
+    width: 360px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 22px;
+}
+
+#checklist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+
+input{
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.completed{
+    text-decoration: line-through;
+}
